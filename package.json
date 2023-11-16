@@ -1,0 +1,19 @@
+{
+  "name": "mvm",
+  "version": "1.0.0",
+  "description": "React app that checks the liklihood of who would win in marvel character fights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedgusek/MvM.git"
+  },
+  "author": "Ted Gusek",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/tedgusek/MvM/issues"
+  },
+  "homepage": "https://github.com/tedgusek/MvM#readme"
+}
