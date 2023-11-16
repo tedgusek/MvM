@@ -1,7 +1,8 @@
 // src/components/CharacterList.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import router from '../routes/marvelCharacters';
+// import router from './routes/marvelCharacters.js';
+import router from '../routes/marvelCharacter';
 
 const CharacterList = () => {
   const [characters, setCharacters] = useState([]);
