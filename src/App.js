@@ -1,5 +1,5 @@
 import logo from './Marvel_Logo.png';
-import CharacterList from './components/characterList';
+import CharacterList from '../components/characterList';
 import './App.css';
 
 function App() {
