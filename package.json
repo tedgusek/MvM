@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/tedgusek/MvM/issues"
   },
-  "homepage": "https://github.com/tedgusek/MvM#readme"
+  "homepage": "https://github.com/tedgusek/MvM#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
