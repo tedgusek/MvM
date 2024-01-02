@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import router from './routes/marvelCharacters.js';
 import router from '../routes/marvelCharacter';
+import marvelController from '../controllers/marvelController';
 
 const CharacterList = () => {
   const [characters, setCharacters] = useState([]);
@@ -10,7 +11,8 @@ const CharacterList = () => {
   useEffect(() => {
     // Make the API call here
     axios
-      .get(router) // Assuming this is the endpoint in your Express server
+      // .get(router) // Assuming this is the endpoint in your Express server
+      .get(marvelController.getCharacters)
       .then((response) => {
         setCharacters(response.data);
       })
